@@ -1,1 +1,40 @@
-.Services{}
+.Services {
+  // margin-top: 50px;
+  max-width: 95vw;
+  margin: 50px auto 0px auto;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service {
+    max-width: 600px;
+    margin-bottom: 25px;
+  }
+  .content-header {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  h1 {
+    margin-bottom: 25px;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+
+  text-align: left;
+
+  button {
+    width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+  @media only screen and (max-width: 900px) {
+    p {
+      max-width: 420px;
+    }
+  }
+}
