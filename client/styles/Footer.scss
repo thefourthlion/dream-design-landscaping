@@ -1,1 +1,64 @@
-.Footer{}
+@import "./variables.scss";
+.Footer {
+  margin: 0 auto;
+  padding: 15px 75px;
+  background-color: #dddddd;
+  .socials {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .footer-nav > ul {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .terms-and-conditions-a {
+    position: relative;
+    top: 10px;
+  }
+  .icon {
+    width: 45px;
+    height: auto;
+  }
+
+  .footer-nav {
+    position: relative;
+    right: 15px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .footer-info {
+    margin-top: 50px;
+  }
+  img {
+    width: 250px;
+    height: 137px;
+  }
+
+  button {
+    margin-top: 25px;
+    height: 55px;
+    width: 250px;
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
