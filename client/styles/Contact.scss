@@ -1,2 +1,16 @@
+@import "./variables.scss";
 .Contact {
+  background-color: $white;
+  padding: 45px 0 40px 0;
+  text-align: center;
+  h4 {
+    text-align: left;
+    max-width: 600px;
+    display: inline-block;
+  }
+  button {
+    position: relative;
+    bottom: 15px;
+    margin: 0 12.5px;
+  }
 }
