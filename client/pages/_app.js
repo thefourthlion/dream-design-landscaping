@@ -7,6 +7,7 @@ import "../styles/Landing.scss";
 import "../styles/Navbar.scss";
 import "../styles/globals.scss";
 import "../styles/index.scss";
+import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }) {

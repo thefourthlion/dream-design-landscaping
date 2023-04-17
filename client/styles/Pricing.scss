@@ -1,1 +1,29 @@
-.Pricing{}
+.Pricing {
+  padding: 25px 0 30px 0;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    margin-bottom: 15px;
+  }
+  .search-input-label {
+    margin: 10px;
+  }
+  .search-input-form-control {
+    max-width: 420px;
+  }
+
+  .primary-btn {
+    margin: 0 auto;
+    width: 420px;
+  }
+
+  .pricing-container {
+    width: 420px;
+    margin: 0 auto;
+  }
+}
