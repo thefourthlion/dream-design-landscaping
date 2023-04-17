@@ -1,0 +1,5 @@
+apps:
+  - script: ./server.js
+    cwd: /home/DreamDesignLandscaping/website/client
+    name: "dream-design-landscaping-client"
+    interpreter: /usr/bin/node
