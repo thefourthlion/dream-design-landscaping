@@ -1,1 +1,33 @@
-.Landing{}
+.Landing {
+  height: 100vh;
+  .landing-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35vh;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  video {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  button {
+    max-width: 395px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}

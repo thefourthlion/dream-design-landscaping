@@ -24,7 +24,7 @@ export default function Navbar() {
         </li>
 
         <li className="nav-item">
-          <Link href="/">
+          <Link href="/" className="phone-none">
             <Image
               priority
               className="icon fb-icon"
