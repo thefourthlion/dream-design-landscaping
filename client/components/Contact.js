@@ -7,13 +7,15 @@ const Contact = () => {
     <div className="Contact">
       <div className="container">
         <Container>
-          <Row>
+          <Row className="contact-container">
             <Col>
               <h4>
                 Get in Touch: We're here to help with all your landscaping and
                 tree work needs! If you have any questions or want to request a
                 quote, simply give us a call or send us an email.
               </h4>
+            </Col>
+            <Col className="buttons">
               <button className="primary-btn">Get Estimate</button>
               <button className="primary-btn">Contact Us</button>
             </Col>

@@ -1,6 +1,18 @@
+@import "./variables.scss";
 .Portfolio {
+  background-color: $white;
+  padding: 50px 0 55px 0;
   .information {
     position: relative;
     top: 25%;
+  }
+
+  .information {
+    margin-bottom: 100px;
+  }
+
+  .portfolio-img {
+    max-width: 32vw;
+    height: auto;
   }
 }

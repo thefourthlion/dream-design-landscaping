@@ -12,6 +12,7 @@ const Portfolio = () => {
           <Col>
             <div className="image">
               <Image
+                className="portfolio-img"
                 priority
                 src={Img}
                 alt="DDL-portfolio-img"

@@ -37,7 +37,7 @@ const Footer = () => {
             </ul>
           </Col>
         </Row>
-        <hr></hr>
+        <hr className="phone-none"></hr>
         <Row>
           <Col>
             <ul className="socials">

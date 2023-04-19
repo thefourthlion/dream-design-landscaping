@@ -9,8 +9,15 @@
     display: inline-block;
   }
   button {
+    margin: 5px 12.5px;
+  }
+
+  .buttons {
     position: relative;
-    bottom: 15px;
-    margin: 0 12.5px;
+    top: 25px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    padding: 15px 0 40px 0;
   }
 }
