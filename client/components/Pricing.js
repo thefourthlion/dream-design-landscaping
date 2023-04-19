@@ -45,7 +45,7 @@ const Pricing = () => {
         </h4>
 
         <button
-          className="primary-btn"
+          className="primary-btn req-a-service-btn"
           onClick={() => {
             setShowForm(!showForm);
           }}
