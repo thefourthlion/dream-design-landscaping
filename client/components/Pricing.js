@@ -20,14 +20,17 @@ const Pricing = () => {
   });
 
   const sendFormToDb = () => {
-    Axios.post("http://localhost:3002/api/clients/create", {
-      name: name,
-      phone: phone,
-      email: email,
-      address: address,
-      description: description,
-      timestamp: date,
-    }).then(() => {
+    Axios.post(
+      "https://api.dreamdesignlandscaping.everettdeleon.com/api/clients/create",
+      {
+        name: name,
+        phone: phone,
+        email: email,
+        address: address,
+        description: description,
+        timestamp: date,
+      }
+    ).then(() => {
       refreshPage();
     });
   };
