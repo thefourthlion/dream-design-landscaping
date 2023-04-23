@@ -1,5 +1,5 @@
 apps:
   - script: ./index.js
-    cwd: /home/DreamDesignLandscaping/website/server
+    cwd: /home/everettdeleon/dream-design-landscaping/server
     name: "dream-design-landscaping-server"
     interpreter: /usr/bin/node
