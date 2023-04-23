@@ -1,5 +1,5 @@
 apps:
   - script: ./server.js
-    cwd: /home/everettdeleon/dream-design-landscaping/client
+    cwd: /home/dreamdesignlandscaping/dream-design-landscaping/client
     name: "dream-design-landscaping-client"
     interpreter: /usr/bin/node
