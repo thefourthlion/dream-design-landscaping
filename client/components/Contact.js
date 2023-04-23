@@ -16,8 +16,12 @@ const Contact = () => {
               </h4>
             </Col>
             <Col className="buttons">
-              <button className="primary-btn">Get Estimate</button>
-              <button className="primary-btn">Contact Us</button>
+              <a href="tel:+12094019318">
+                <button className="primary-btn">Get Estimate</button>
+              </a>
+              <a href="tel:+12094019318">
+                <button className="primary-btn">Contact Us</button>
+              </a>
             </Col>
           </Row>
         </Container>

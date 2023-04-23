@@ -17,7 +17,7 @@ const Services = () => {
               non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
               luctus elit at mauris varius, nec auctor velit ultrices.
             </p>
-            <a href="tel:+12097704091">
+            <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
             </a>
           </Col>
@@ -30,7 +30,7 @@ const Services = () => {
               non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
               luctus elit at mauris varius, nec auctor velit ultrices.
             </p>
-            <a href="tel:+12097704091">
+            <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
             </a>
           </Col>
@@ -45,7 +45,7 @@ const Services = () => {
               non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
               luctus elit at mauris varius, nec auctor velit ultrices.
             </p>
-            <a href="tel:+12097704091">
+            <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
             </a>
           </Col>
@@ -58,7 +58,7 @@ const Services = () => {
               non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
               luctus elit at mauris varius, nec auctor velit ultrices.
             </p>
-            <a href="tel:+12097704091">
+            <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
             </a>
           </Col>

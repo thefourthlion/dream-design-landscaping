@@ -11,7 +11,7 @@ const Landing = () => {
         <div className="landing-info">
           <h1>Beautiful landscapes, expertly designed</h1>
 
-          <a href="tel:+4733378901">
+          <a href="tel:+12094019318">
             <button className="primary-btn">Get A Quote</button>
           </a>
         </div>
