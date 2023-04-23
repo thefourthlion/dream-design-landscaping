@@ -23,7 +23,7 @@ export default function Navbar() {
           </Link>
         </li>
 
-        <li className="nav-item">
+        <li className="nav-item phone-none">
           <Link href="/" className="phone-none">
             <Image
               priority
