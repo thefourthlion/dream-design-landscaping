@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { Carousel } from "react-bootstrap";
-import slideOneImage from "../public/images/chainsaw1429x800.webp";
-import slideTwoImage from "../public/images/chainsaw1429x800.webp";
-import slideThreeImage from "../public/images/chainsaw1429x800.webp";
-import Img from "../public/images/chainsaw1429x800.webp";
+import slideOneImage from "../public/images/chainsawing-limb.webp";
+import slideTwoImage from "../public/images/hedge-trimming.webp";
+import slideThreeImage from "../public/images/weedwhacking_1.webp";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -53,9 +52,17 @@ const Portfolio = () => {
               Experience You Can Count On: A Collection of Our Past Projects
             </h1>
             <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+              <b>
+                Our team has completed numerous landscaping projects over the
+                years, including tree removal and pruning, leaf and yard waste
+                removal, gutter cleaning and maintenance, hedge trimming, weed
+                whacking, pressure washing, custom walkways, deck cleaning and
+                staining, and more. We take pride in our attention to detail and
+                use only the highest quality materials and equipment to ensure
+                our clients are satisfied with the end result. Take a look at
+                some of our past projects and see for yourself the level of
+                expertise and professionalism we bring to each and every job.
+              </b>
             </p>
           </div>
         </div>
