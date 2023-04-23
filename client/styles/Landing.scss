@@ -1,12 +1,24 @@
+@import "./variables.scss";
 .Landing {
   height: 100vh;
+  max-width: 100%;
+  position: relative;
+  .img {
+    background-image: url("https://storage.googleapis.com/personal-site-projects/bark.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .landing-info {
+    color: $white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 35vh;
+    top: 40vh;
   }
 
   h1 {

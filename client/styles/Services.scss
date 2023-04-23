@@ -1,7 +1,9 @@
+@import "./variables.scss";
 .Services {
   // margin-top: 50px;
-  max-width: 95vw;
-  margin: 50px auto 0px auto;
+  // max-width: 95vw;
+  background-color: $white;
+  padding-top: 25px;
   .container {
     display: flex;
     flex-direction: column;
@@ -14,7 +16,6 @@
   }
   .content-header {
     text-align: center;
-    margin-top: 25px;
     margin-bottom: 50px;
   }
   h1 {
