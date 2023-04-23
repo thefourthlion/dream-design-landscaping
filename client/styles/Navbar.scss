@@ -16,8 +16,9 @@
   font-weight: bold;
 
   .mobile-header {
-    position: relative;
-    right: 30px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
   }
 
   .burger {
@@ -87,6 +88,7 @@
     background-color: $white;
     height: 75px;
     z-index: 8 !important;
+    border-bottom: 1px solid black;
 
     .nav-title {
       position: absolute;

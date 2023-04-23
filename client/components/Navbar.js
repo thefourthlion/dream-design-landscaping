@@ -27,7 +27,6 @@ export default function Navbar() {
           <Link href="/" className="phone-none">
             <Image
               priority
-              className="icon fb-icon"
               src={DDLIcon}
               alt="dream-design-landscaping-icon"
               width={150}
@@ -50,7 +49,14 @@ export default function Navbar() {
       </ul>
 
       <Link className="nav-link pc-none" href="/">
-        <h2 className="mobile-header pc-none">Dream Design Landscaping</h2>
+        <Image
+          priority
+          className="mobile-header pc-none"
+          src={DDLIcon}
+          alt="dream-design-landscaping-icon"
+          width={150}
+          height={50}
+        />
       </Link>
 
       <div className="burger" onClick={() => setShowLinks(!showLinks)}>
