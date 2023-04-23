@@ -9,7 +9,7 @@ import YPIcon from "../public/images/yp-logo.svg";
 import YelpIcon from "../public/images/yelp-logo.svg";
 const Footer = () => {
   return (
-    <div className="Footer" id="contact-us">
+    <div className="Footer">
       <Container>
         <Row className="footer-links">
           <Col className="footer-nav">

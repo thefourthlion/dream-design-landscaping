@@ -19,24 +19,25 @@ const Pricing = () => {
     day: "numeric",
   });
 
+  const refreshPage = () => {
+    window.location.reload();
+  };
+
   const sendFormToDb = () => {
-    Axios.post(
-      "https://api.dreamdesignlandscaping.everettdeleon.com/api/clients/create",
-      {
-        name: name,
-        phone: phone,
-        email: email,
-        address: address,
-        description: description,
-        timestamp: date,
-      }
-    ).then(() => {
+    Axios.post("http://localhost:3010/api/clients/create", {
+      name: name,
+      phone: phone,
+      email: email,
+      address: address,
+      description: description,
+      timestamp: date,
+    }).then(() => {
       refreshPage();
     });
   };
 
   return (
-    <div className="Pricing">
+    <div className="Pricing" id="pricing">
       <div className="container">
         {/* <Container> */}
 
@@ -117,7 +118,14 @@ const Pricing = () => {
               />
             </FloatingLabel>
 
-            <button className="primary-btn">Submit Request</button>
+            <button
+              onClick={() => {
+                sendFormToDb();
+              }}
+              className="primary-btn"
+            >
+              Submit Request
+            </button>
           </div>
         )}
       </div>

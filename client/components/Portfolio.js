@@ -9,7 +9,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 const Portfolio = () => {
   return (
-    <div className="Portfolio">
+    <div className="Portfolio" id="portfolio">
       <div className="img">
         <div className="container">
           <div className="carousel-container">

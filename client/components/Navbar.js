@@ -18,7 +18,7 @@ export default function Navbar() {
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link" href="/services">
+          <Link className="nav-link" href="/#services">
             Services
           </Link>
         </li>
@@ -36,13 +36,13 @@ export default function Navbar() {
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link" href="/portfolio">
+          <Link className="nav-link" href="/#portfolio">
             Portfolio
           </Link>
         </li>
 
         <li className="nav-item">
-          <Link className="nav-link" href="/pricing">
+          <Link className="nav-link" href="/#pricing">
             Pricing
           </Link>
         </li>
