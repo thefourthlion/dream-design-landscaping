@@ -5,30 +5,29 @@ import Col from "react-bootstrap/Col";
 const Services = () => {
   return (
     <div className="Services" id="services">
-      <h1 className="content-header">Store Services</h1>
+      <h1 className="content-header">Landscaping Services</h1>
       <Container className="container">
         <Row>
           <Col md={6} className="service">
-            <h1>Seasonal Cleanups</h1>
+            <h2>Tree Removal and Pruning</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              tristique sapien sit amet diam malesuada, eu ultrices felis
-              congue. Quisque lacinia lobortis neque, at sagittis leo semper
-              non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
-              luctus elit at mauris varius, nec auctor velit ultrices.
+              We offer expert tree removal and pruning services to maintain the
+              safety and health of your outdoor space. We use modern equipment
+              and techniques to safely remove trees or prune branches that are
+              diseased or pose a hazard to your property.
             </p>
             <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
             </a>
           </Col>
           <Col md={6} className="service">
-            <h1>Tree Pruning and Removal</h1>
+            <h2>Leaf and Yard Waste Removal</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              tristique sapien sit amet diam malesuada, eu ultrices felis
-              congue. Quisque lacinia lobortis neque, at sagittis leo semper
-              non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
-              luctus elit at mauris varius, nec auctor velit ultrices.
+              Don't let yard waste detract from the beauty of your outdoor
+              space. Our professional leaf and yard waste removal services will
+              keep your property looking clean and inviting all year round. From
+              seasonal contracts to on-demand debris removal we have you
+              covered.
             </p>
             <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
@@ -37,26 +36,24 @@ const Services = () => {
         </Row>
         <Row>
           <Col md={6} className="service">
-            <h1>Tree Work</h1>
+            <h2>Gutter Cleaning and Maintenance</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              tristique sapien sit amet diam malesuada, eu ultrices felis
-              congue. Quisque lacinia lobortis neque, at sagittis leo semper
-              non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
-              luctus elit at mauris varius, nec auctor velit ultrices.
+              Ensure the safety and longevity of your home with our professional
+              gutter cleaning and maintenance services. Our team will ensure
+              that your gutters are clear and functioning properly, protecting
+              your property from water damage.
             </p>
             <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
             </a>
           </Col>
           <Col md={6} className="service">
-            <h1>Yard Cleaning / Hauling</h1>
+            <h2>Deck Cleaning and Staining</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              tristique sapien sit amet diam malesuada, eu ultrices felis
-              congue. Quisque lacinia lobortis neque, at sagittis leo semper
-              non. Maecenas nec turpis non dui vestibulum suscipit. Vestibulum
-              luctus elit at mauris varius, nec auctor velit ultrices.
+              Protect your deck from the elements and keep it looking great with
+              our expert cleaning and staining services. We'll remove any
+              buildup of dirt or grime and apply a high-quality stain to enhance
+              the natural beauty of your deck.
             </p>
             <a href="tel:+12094019318">
               <button className="primary-btn">Schedule</button>
