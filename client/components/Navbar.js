@@ -50,7 +50,7 @@ export default function Navbar() {
       </ul>
 
       <Link className="nav-link pc-none" href="/">
-        Home
+        <h2 className="mobile-header pc-none">Dream Design Landscaping</h2>
       </Link>
 
       <div className="burger" onClick={() => setShowLinks(!showLinks)}>
