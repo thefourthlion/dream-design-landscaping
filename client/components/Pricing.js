@@ -24,7 +24,7 @@ const Pricing = () => {
   };
 
   const sendFormToDb = () => {
-    Axios.post("http://localhost:3010/api/clients/create", {
+    Axios.post("https://api.dreamdesignlandscaping.com/api/clients/create", {
       name: name,
       phone: phone,
       email: email,
