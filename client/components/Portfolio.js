@@ -1,12 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import { Carousel } from "react-bootstrap";
-import slideOneImage from "../public/images/chainsawing-limb.webp";
-import slideTwoImage from "../public/images/hedge-trimming.webp";
-import slideThreeImage from "../public/images/weedwhacking_1.webp";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
+
 const Portfolio = () => {
   return (
     <div className="Portfolio" id="portfolio">
@@ -15,9 +9,9 @@ const Portfolio = () => {
           <div className="carousel-container">
             <Carousel className="carousel">
               <Carousel.Item>
-                <Image
+                <img
                   className="carousel-img"
-                  src={slideOneImage}
+                  src="https://storage.googleapis.com/dreamdesignlandscaping/chainsawing-limb.webp"
                   alt="Slide One"
                   layout="fill"
                   objectFit="cover"
@@ -25,9 +19,9 @@ const Portfolio = () => {
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <Image
+                <img
                   className="carousel-img"
-                  src={slideTwoImage}
+                  src="https://storage.googleapis.com/dreamdesignlandscaping/hedge-trimming.webp"
                   alt="Slide Two"
                   layout="fill"
                   objectFit="cover"
@@ -35,9 +29,9 @@ const Portfolio = () => {
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <Image
+                <img
                   className="carousel-img"
-                  src={slideThreeImage}
+                  src="https://storage.googleapis.com/dreamdesignlandscaping/weedwhacking_1.webp"
                   alt="Slide Three"
                   layout="fill"
                   objectFit="cover"

@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import FBIcon from "../public/images/fb-logo.svg";
 import GoogleIcon from "../public/images/google-logo.svg";
-import YPIcon from "../public/images/yp-logo.svg";
-import YelpIcon from "../public/images/yelp-logo.svg";
+import TwitterIcon from "../public/images/Twitter_logo.svg";
+import InstagramIcon from "../public/images/Instagram_logo.svg";
 const Footer = () => {
   return (
     <div className="Footer">
@@ -42,24 +42,24 @@ const Footer = () => {
           <Col>
             <ul className="socials">
               <li>
-                <a href="https://www.facebook.com">
+                <a href="Facebook.com/profile.php?id=100091882991686">
                   <Image
                     priority
                     className="icon fb-icon"
                     src={FBIcon}
-                    alt="facebook-icon"
+                    alt="dream-design-landscaping-facebook-icon"
                     width={50}
                     height={50}
                   />
                 </a>
               </li>
               <li>
-                <a href="http://www.yellowpages.com">
+                <a href="Https://twitter.com/DreamDesign209">
                   <Image
                     priority
-                    className="icon yp-icon"
-                    src={YPIcon}
-                    alt="yellow-pages-icon"
+                    className="icon twitter-icon"
+                    src={TwitterIcon}
+                    alt="dream-design-landscaping-twitter-icon"
                     width={50}
                     height={50}
                   />
@@ -71,19 +71,19 @@ const Footer = () => {
                     priority
                     className="icon google-icon"
                     src={GoogleIcon}
-                    alt="google-icon"
+                    alt="dream-design-landscaping-google-icon"
                     width={50}
                     height={50}
                   />
                 </a>
               </li>
               <li>
-                <a href="https://www.yelp.com">
+                <a href="https://www.instagram.com/">
                   <Image
                     priority
-                    className="icon yelp-icon"
-                    src={YelpIcon}
-                    alt="yelp-icon"
+                    className="icon insta-icon"
+                    src={InstagramIcon}
+                    alt="dream-design-landscaping-instagram-icon"
                     width={50}
                     height={50}
                   />
