@@ -11,7 +11,7 @@ const Portfolio = () => {
               <Carousel.Item>
                 <img
                   className="carousel-img"
-                  src="https://storage.googleapis.com/dreamdesignlandscaping/chainsawing-limb.webp"
+                  src="https://storage.googleapis.com/cardano-books/meteq/chainsawing-limb_1.jpg"
                   alt="Slide One"
                   layout="fill"
                   objectFit="cover"
@@ -21,7 +21,7 @@ const Portfolio = () => {
               <Carousel.Item>
                 <img
                   className="carousel-img"
-                  src="https://storage.googleapis.com/dreamdesignlandscaping/hedge-trimming.webp"
+                  src="https://storage.googleapis.com/cardano-books/meteq/hedge-trimming_1.jpg"
                   alt="Slide Two"
                   layout="fill"
                   objectFit="cover"
@@ -31,7 +31,7 @@ const Portfolio = () => {
               <Carousel.Item>
                 <img
                   className="carousel-img"
-                  src="https://storage.googleapis.com/dreamdesignlandscaping/weedwhacking_1.webp"
+                  src="https://storage.googleapis.com/cardano-books/meteq/weedwhacking_1.jpg"
                   alt="Slide Three"
                   layout="fill"
                   objectFit="cover"
